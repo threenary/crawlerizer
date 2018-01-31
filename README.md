@@ -1,5 +1,5 @@
 # crawlerizer
-This project consists of a simple REST API in which one can post a JSON object consisting of an url, which is parsed by the bakend and it tries to crawl the result trying to _qualify_ the content.
+This project consists of a simple REST API in which one can post a JSON object consisting of an url, which is parsed by the backend and it tries to crawl the result trying to _qualify_ the content.
 
 ## List of Endpoints
 
@@ -16,7 +16,7 @@ This project consists of a simple REST API in which one can post a JSON object c
     {
         "url": "cde.com.ar",
         "rank": 834987
-    }, 
+    },
     {
         "url": "clarin.com",
         "rank": 834987
@@ -35,4 +35,3 @@ Clone the repo and simply run ```mvn install``` inside the unzipped project's fo
 
 # Advice
 Since I faced conflicts when trying to integrate testing the REST API, a [Postman](https://www.getpostman.com/) file is included into ```/crawlerizer/src/test/resources``` the to import and allow the basic runs on the application
-
